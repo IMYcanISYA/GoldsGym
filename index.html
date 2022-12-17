@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="short icon" href="img/logo/logo-img.svg">
+	<link
+	  rel="stylesheet"
+	  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+	/>
+	<title>Golds Gym</title>
+</head>
+<body>
+	<header>
+<div class="header-nav">
+	<div class="container">
+		<div class="header-nav__left">
+			<div class="header__logo-wrapper">
+			<img src="img/logo/logo-img.svg" alt="" class="header__logo">
+		</div>
+		<div class="nav-menu">
+			<ul class="nav-menu__list">
+				<li class="nav-menu__item"><a href="#" class="nav-menu__link _active">Home</a></li>
+				<li class="nav-menu__item"><a href="#" class="nav-menu__link">Training</a></li>
+				<li class="nav-menu__item"><a href="#" class="nav-menu__link">Contact</a></li>
+			</ul>
+		</div>
+		</div>
+		
+		<button class="burger-btn"><div class="header__btn"><span></span></div></button>
+	</div>
+</div>
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__content">
+					<div class="header__subtitle">Fitness Club
+						<svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0.833353 19.6597L1.2396 20.8785C1.26657 20.9594 1.3183 21.0297 1.38747 21.0796C1.45664 21.1294 1.53974 21.1562 1.625 21.1562H2.84375C2.92901 21.1562 3.01211 21.1294 3.08128 21.0796C3.15045 21.0297 3.20218 20.9594 3.22915 20.8785L3.54281 19.9375H4.17594L4.4896 20.8785C4.51657 20.9594 4.5683 21.0297 4.63747 21.0796C4.70664 21.1294 4.78974 21.1562 4.875 21.1562H6.09375C6.17901 21.1562 6.26211 21.1294 6.33128 21.0796C6.40045 21.0297 6.45218 20.9594 6.47915 20.8785L6.8854 19.6597C6.89929 19.6183 6.9062 19.5749 6.90625 19.5312V17.9062C6.90625 17.7985 6.86345 17.6952 6.78726 17.619C6.71108 17.5428 6.60774 17.5 6.5 17.5H5.28125V16.2812H6.90625C7.01399 16.2812 7.11733 16.2384 7.19351 16.1623C7.2697 16.0861 7.3125 15.9827 7.3125 15.875V13.8437C7.3125 13.736 7.2697 13.6327 7.19351 13.5565C7.11733 13.4803 7.01399 13.4375 6.90625 13.4375H5.6875V13.0312C5.6875 12.9235 5.6447 12.8202 5.56851 12.744L4.89213 12.0676L5.24264 8.5625H6.65517L8.9801 13.2124C9.28132 13.8175 9.7647 14.3129 10.3622 14.629L22.5594 21.1087C22.6534 21.1587 22.7632 21.1698 22.8653 21.1396C22.9673 21.1094 23.0535 21.0403 23.1051 20.9473L25.1364 17.291C25.163 17.2431 25.1797 17.1903 25.1853 17.1357C25.191 17.0812 25.1856 17.0261 25.1693 16.9737C25.1531 16.9213 25.1265 16.8727 25.091 16.8309C25.0555 16.7891 25.012 16.7549 24.9629 16.7304L24.1504 16.3241C24.0893 16.2936 24.0215 16.2789 23.9532 16.2815C23.8849 16.2842 23.8184 16.304 23.7598 16.3391L21.9664 17.4151L13.3426 10.7513L11.4862 5.55339C11.6796 5.2361 11.7817 4.87159 11.7813 4.5V2.46875C11.7812 2.16697 11.6972 1.87116 11.5386 1.61445C11.3799 1.35774 11.1529 1.15028 10.883 1.01532C10.6131 0.880354 10.3109 0.823219 10.0103 0.850314C9.70977 0.877408 9.4227 0.987662 9.18127 1.16872L7.88126 2.14373C7.83081 2.18158 7.78986 2.23065 7.76165 2.28706C7.73345 2.34348 7.71876 2.40568 7.71875 2.46875V4.5C7.71857 4.77969 7.7765 5.05637 7.88887 5.3125H5.28125C4.4196 5.31347 3.59351 5.65619 2.98423 6.26548C2.37495 6.87476 2.03222 7.70084 2.03125 8.5625V13.0312C2.03125 13.139 2.07405 13.2423 2.15024 13.3185L2.26921 13.4375H1.21875C1.11101 13.4375 1.00768 13.4803 0.931489 13.5565C0.855303 13.6327 0.812501 13.736 0.8125 13.8437V15.875C0.812501 15.9827 0.855303 16.0861 0.931489 16.1623C1.00768 16.2384 1.11101 16.2812 1.21875 16.2812H2.84375V17.5H1.21875C1.11101 17.5 1.00768 17.5428 0.931489 17.619C0.855303 17.6952 0.812501 17.7985 0.8125 17.9062V19.5312C0.81255 19.5749 0.819461 19.6183 0.833353 19.6597ZM2.55094 20.3437H1.91781L1.78239 19.9375H2.68636L2.55094 20.3437ZM5.16781 20.3437L5.03239 19.9375H5.93636L5.80094 20.3437H5.16781ZM6.5 7.75V6.125H8.53125V6.12388C8.86364 6.37413 9.26502 6.51595 9.68084 6.53008C10.0967 6.54421 10.5067 6.42995 10.8553 6.20283L12.1846 9.92478L8.96106 11.3575L7.56358 8.5625H9.34375V7.75H6.5ZM10.9688 4.5C10.9688 4.82323 10.8403 5.13323 10.6118 5.36179C10.3832 5.59035 10.0732 5.71875 9.75 5.71875C9.42677 5.71875 9.11677 5.59035 8.88821 5.36179C8.65965 5.13323 8.53125 4.82323 8.53125 4.5V4.09375H8.9375C9.04524 4.09375 9.14857 4.05096 9.22476 3.97478L9.91829 3.28125H10.9688V4.5ZM21.2603 19.4986L14.0235 15.654L15.4352 13.3952L21.4968 18.0791L21.2603 19.4986ZM23.9865 17.1506L24.2201 17.2674L22.5885 20.2042L22.017 19.9006L22.3074 18.1581L23.9865 17.1506ZM14.7891 12.8959L13.3041 15.2719L10.7434 13.9115C10.2953 13.6744 9.93274 13.3028 9.70681 12.849L9.3248 12.0849L12.4587 10.6921L12.6174 11.1366C12.6435 11.2098 12.6901 11.2739 12.7516 11.3214L14.7891 12.8959ZM9.66872 1.81876C9.78943 1.72822 9.93297 1.67309 10.0833 1.65953C10.2335 1.64598 10.3846 1.67454 10.5196 1.74202C10.6546 1.8095 10.7681 1.91323 10.8474 2.04159C10.9267 2.16995 10.9687 2.31786 10.9688 2.46875H9.75C9.64226 2.46875 9.53893 2.51154 9.46274 2.58772L8.76921 3.28125H8.53125V2.67188L9.66872 1.81876ZM2.84375 12.863V8.5625C2.84448 7.91626 3.10152 7.29669 3.55848 6.83973C4.01544 6.38277 4.63501 6.12573 5.28125 6.125H5.6875V7.75H4.875C4.77425 7.75 4.6771 7.78744 4.6024 7.85504C4.5277 7.92264 4.48079 8.01559 4.47076 8.11583L4.06451 12.1783C4.05852 12.2382 4.06591 12.2987 4.08615 12.3553C4.10638 12.412 4.13894 12.4635 4.18149 12.506L4.875 13.1995V13.4375H3.41829L2.84375 12.863ZM1.625 14.25H6.5V15.4687H1.625V14.25ZM3.65625 16.2812H4.46875V17.5H3.65625V16.2812ZM1.625 18.3125H6.09375V19.125H1.625V18.3125Z" fill="#FF2625" fill-opacity="0.5"/>
+						</svg>
+
+					</div>
+					<div class="header__title">Sweat, Smile And Repeat</div>
+					<div class="header__text">A gym is a club, building, or large room, usually containing special equipment, where people go to</div>
+					<div class="header__actions">
+						<a href="#" class="header__btn _btn">Join Now</a>
+						<a href="#" class="header__btn _btn">Know More</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__decor-text">Exercise</div>
+		</div>
+		<div class="header__decorations">
+			<img src="img/decor/decor-rectangles.svg" alt="" class="header__rectangles">
+			<img src="img/index/header/header.jpg" alt="" class="header__img">
+			<img src="img/decor/dots.svg" alt="" class="dots _dots">
+			<button class="play-btn"></button>
+
+		</div>
+		<div class="header__modal modal-header">
+			<div class="modal-header__wrapper">
+				<iframe src="https://www.youtube.com/embed/IJgkkYX-QYw?rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="Youtube"></iframe>
+			</div>
+			<div class="modal-header__btn burger-btn"><span></span></div>
+		</div>
+	</header>
+	<main>
+		<section class="services">
+			<div class="container">
+				<div class="services__wrapper">
+					<div class="services__subtitle _subtitle">Our Services</div>
+					<div class="services__title _title">Awesome Packages That We Offer For Our Clients</div>
+					<div class="services__slider slider-services">
+						<div class="swiper-wrapper">
+							<div class="services__slide slide-services swiper-slide">
+								<div class="slide-services__img-wrapper">
+									<img src="img/index/services/item1.svg" alt="">
+								</div>
+								<div class="slide-services__title">Meditation Programme</div>
+							</div>
+							<div class="services__slide slide-services swiper-slide">
+								<div class="slide-services__img-wrapper">
+									<img src="img/index/services/item2.svg" alt="">
+								</div>
+								<div class="slide-services__title">Muscle Building</div>
+							</div>
+							<div class="services__slide slide-services swiper-slide _big">
+								<div class="slide-services__img-wrapper">
+									<img src="img/index/services/item3.svg" alt="">
+								</div>
+								<div class="slide-services__title">Cardio Programme</div>
+								<a href="#" class="slide-services__btn">Learn more</a>
+							</div>
+							<div class="services__slide slide-services swiper-slide">
+								<div class="slide-services__img-wrapper">
+									<img src="img/index/services/item4.svg" alt="">
+								</div>
+								<div class="slide-services__title">Nutrition Supports</div>
+							</div>
+							<div class="services__slide slide-services swiper-slide">
+								<div class="slide-services__img-wrapper">
+									<img src="img/index/services/item1.svg" alt="">
+								</div>
+								<div class="slide-services__title">Meditation Programme</div>
+							</div>
+							<div class="services__slide slide-services swiper-slide">
+								<div class="slide-services__img-wrapper">
+									<img src="img/index/services/item2.svg" alt="">
+								</div>
+								<div class="slide-services__title">Muscle Building</div>
+							</div>
+							<div class="services__slide slide-services swiper-slide _big">
+								<div class="slide-services__img-wrapper">
+									<img src="img/index/services/item3.svg" alt="">
+								</div>
+								<div class="slide-services__title">Cardio Programme</div>
+								<a href="#" class="slide-services__btn">Learn more</a>
+							</div>
+							<div class="services__slide slide-services swiper-slide">
+								<div class="slide-services__img-wrapper">
+									<img src="img/index/services/item4.svg" alt="">
+								</div>
+								<div class="slide-services__title">Nutrition Supports</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-services__buttons">
+					<div class="slider-services__btn _prev">
+						<svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M13.5987 6.56291H2.18977L4.81464 3.93804L4.19593 3.31934L0.514832 7.00043L4.19593 10.6815L4.81464 10.0628L2.18972 7.43791H13.5987V6.56291Z"/>
+						</svg>
+					</div>
+					<div class="slider-services__btn _next _active">
+						<svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M13.5987 6.56291H2.18977L4.81464 3.93804L4.19593 3.31934L0.514832 7.00043L4.19593 10.6815L4.81464 10.0628L2.18972 7.43791H13.5987V6.56291Z"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="text first-text">
+			<div class="container">
+				<div class="text__wrapper">
+					<div class="text__img-wrapper">
+						<img src="img/index/text/text1.jpg" alt="" class="text__img">
+						<img src="img/decor/dots.svg" alt="" class="text__dots _dots">
+					</div>
+					<div class="text__content">
+						<div class="text__subtitle _subtitle">Improve Moods</div>
+						<div class="text__title _title">Makes You More Active And Improve Moods</div>
+						<div class="text__desc">Physical activity and exercise can have immediate and long-term health benefits. Most importantly, regular activity can improve your quality of life.Exercise can improve your health and reduce the risk of </div>
+						<a href="#" class="text__link _btn">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="text__decor">
+				<img src="img/decor/waist.svg" alt="">
+				<img src="img/decor/jumping-rope.svg" alt="">
+				<img src="img/decor/gym.svg" alt="">
+				<img src="img/decor/sit-ups.svg" alt="">
+				<img src="img/decor/decor-rectangles.svg" alt="">
+			</div>
+		</section>
+		<section class="text second-text">
+			<div class="container">
+				<div class="text__wrapper">
+					<div class="text__img-wrapper">
+						<img src="img/index/text/text2.jpg" alt="" class="text__img">
+						<img src="img/decor/dots.svg" alt="" class="text__dots _dots">
+					</div>
+					<div class="text__content">
+						<div class="text__subtitle _subtitle">Health Benefits</div>
+						<div class="text__title _title">Physical Exercise Gives Your Body The Wings</div>
+						<div class="text__desc">Physical activity and exercise can have immediate and long-term health benefits. Most importantly, regular activity can improve your quality of life.Exercise can improve your health and reduce the risk of </div>
+						<a href="#" class="text__link _btn">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="text__decor">
+				<img src="img/decor/ball.svg" alt="">
+				<img src="img/decor/jumping-rope.svg" alt="">
+				<img src="img/decor/decor1.svg" alt="">
+			</div>
+		</section>
+		<section class="trainers">
+			<div class="container">
+				<div class="trainers__wrapper">
+					<div class="trainers__subtitle _subtitle">Our Instructors</div>
+						<div class="trainers__title _title">Meet Our Extreamly Talented Trainers</div>
+						<div class="trainers__slider slider-trainers">
+							<div class="swiper-wrapper">
+								<div class="slider-trainers__slide slide-trainers swiper-slide _left">
+									<div class="slide-trainers__img-wrapper">
+										<img src="img/index/testimonial/testimonial.jpg" alt="" class="slide-trainers__img">
+									</div>
+									<div class="slider-trainers__name">Jason Holder</div>
+									<div class="slider-trainers__type">Cardio Expert</div>
+								</div>
+								<div class="slider-trainers__slide slide-trainers swiper-slide _center">
+									<div class="slide-trainers__img-wrapper">
+										<img src="img/index/testimonial/testimonial.jpg" alt="" class="slide-trainers__img">
+									</div>
+									<div class="slider-trainers__name">Monica Sellesa</div>
+									<div class="slider-trainers__type">Nutrition Expert</div>
+								</div>
+								<div class="slider-trainers__slide slide-trainers swiper-slide _right">
+									<div class="slide-trainers__img-wrapper">
+										<img src="img/index/testimonial/testimonial.jpg" alt="" class="slide-trainers__img">
+									</div>
+									<div class="slider-trainers__name">Jhonson Russoe</div>
+									<div class="slider-trainers__type">Meditation Expert</div>
+								</div>
+								<div class="slider-trainers__slide slide-trainers swiper-slide">
+									<div class="slide-trainers__img-wrapper">
+										<img src="img/index/testimonial/testimonial.jpg" alt="" class="slide-trainers__img">
+									</div>
+									<div class="slider-trainers__name">Jason Holder</div>
+									<div class="slider-trainers__type">Cardio Expert</div>
+								</div>
+								<div class="slider-trainers__slide slide-trainers swiper-slide">
+									<div class="slide-trainers__img-wrapper">
+										<img src="img/index/testimonial/testimonial.jpg" alt="" class="slide-trainers__img">
+									</div>
+									<div class="slider-trainers__name">Monica Sellesa</div>
+									<div class="slider-trainers__type">Nutrition Expert</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-trainers__buttons">
+							<div class="slider-trainers__btn _prev">
+								<svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.5987 6.56291H2.18977L4.81464 3.93804L4.19593 3.31934L0.514832 7.00043L4.19593 10.6815L4.81464 10.0628L2.18972 7.43791H13.5987V6.56291Z"/>
+								</svg>
+							</div>
+							<div class="slider-trainers__btn _next _active">
+								<svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.5987 6.56291H2.18977L4.81464 3.93804L4.19593 3.31934L0.514832 7.00043L4.19593 10.6815L4.81464 10.0628L2.18972 7.43791H13.5987V6.56291Z"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="testimonial">
+			<div class="container">
+				<div class="testimonial__wrapper">
+					<div class="testimonial__img-slider">
+						<div class="swiper-wrapper">
+							<div class="testimonial__img-wrapper swiper-slide">
+								<img src="img/index/testimonial/testimonial.jpg" alt="" class="testimonial__img">
+							</div>
+							<div class="testimonial__img-wrapper swiper-slide">
+								<img src="img/index/testimonial/testimonial.jpg" alt="" class="testimonial__img">
+							</div>
+							<div class="testimonial__img-wrapper swiper-slide">
+								<img src="img/index/testimonial/testimonial.jpg" alt="" class="testimonial__img">
+							</div>
+							<div class="testimonial__img-wrapper swiper-slide">
+								<img src="img/index/testimonial/testimonial.jpg" alt="" class="testimonial__img">
+							</div>
+						</div>
+					</div>
+					<div class="testimonial__content">
+					    <div class="testimonial__subtitle _subtitle">Testimonial</div>
+					    <div class="testimonial__title _title">That’s What Our Super Client Says</div>
+					    <div class="slider-wrapper">
+					    	<div class="testimonial__slider">
+						    	<div class="testimonial__text-wrapper swiper-wrapper">
+						    		<div class="testimonial__slide swiper-slide">
+							    		<div class="testimonial__text">“Gale is an amazing trainer as well as a great person. She is so flexible when it comes to my crazy work schedule and makes sure to always fit me in. Every day she pushes me harder towards my goals.”</div>
+							    		<div class="testimonial__info">
+							    			<div class="testimonial__name">Jessica Parker</div>
+							    			<div class="testimonial__location">Mariland, USA</div>
+							    		</div>
+						    		</div>
+						    		<div class="testimonial__slide swiper-slide">
+							    		<div class="testimonial__text">“Gale is an amazing trainer as well as a great person. She is so flexible when it comes to my crazy work schedule lways fit me in. Every day she pushes me harder towards my goals.”</div>
+							    		<div class="testimonial__info">
+							    			<div class="testimonial__name">Jessica Pker</div>
+							    			<div class="testimonial__location">Mariland, UA</div>
+							    		</div>
+						    		</div>
+						    		<div class="testimonial__slide swiper-slide">
+							    		<div class="testimonial__text">“Gale iner as well as a great person. She is so flexible when it comes to my crazy work schedule and makes sure to always fit me in. Every day she pushes me harder towards my goals.”</div>
+							    		<div class="testimonial__info">
+							    			<div class="testimonial__name">Jesca Parker</div>
+							    			<div class="testimonial__location">Marland, USA</div>
+							    		</div>
+						    		</div>
+						        </div>
+					        </div>
+					        <div class="testimonial__buttons _action-btns">
+						    	<div class="testimonial__btn _prev"><svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.5987 6.56291H2.18977L4.81464 3.93804L4.19593 3.31934L0.514832 7.00043L4.19593 10.6815L4.81464 10.0628L2.18972 7.43791H13.5987V6.56291Z"/>
+							</svg></div>
+						    	<div class="testimonial__btn _next"><svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.5987 6.56291H2.18977L4.81464 3.93804L4.19593 3.31934L0.514832 7.00043L4.19593 10.6815L4.81464 10.0628L2.18972 7.43791H13.5987V6.56291Z"/>
+							</svg></div>
+					    	</div>
+					    </div>
+					</div>
+                    <img src="img/decor/dots.svg" alt="" class="testimonial__dots _dots">
+				</div>
+			</div>
+			<div class="testimonial__decor">
+				<img src="img/decor/sit-ups.svg" alt="">
+				<img src="img/decor/ball.svg" alt="">
+				<img src="img/decor/decor-rectangles.svg" alt="">
+				<img src="img/decor/waist.svg" alt="">
+			</div>
+		</section>
+		<section class="subscribe">
+			<div class="container">
+				<div class="subscribe__wrapper">
+					<div class="subscribe__title _title">Subscribe Our Fitness Articles</div>
+					<div class="subscribe__text">Physical activity is defined as any bodily movement produced by 
+                    skeletal muscles that results in energy expenditure</div>
+					<form class="subscribe__form form-subscribe">
+						<div class="form-subscribe__item">
+							<input type="email" class="form-subscribe__input" placeholder="Type Your Email Address">
+						</div>
+						<button class="form-subscribe__btn _btn">Subscribe</button>
+					</form>
+					<div class="subscribe__decor">
+						<img src="img/decor/run.svg" alt="">
+						<img src="img/decor/decor1.svg" alt="">
+						<img src="img/decor/decor-rectangles.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+<div class="container">
+	<div class="footer-top">
+	<div class="footer__info">
+		<div class="footer__logo-wrapper">
+			<img src="img/logo/logo.svg" alt="" class="footer__logo">
+		</div>
+		<div class="footer__text">A Modified Fitness Club that
+provide fitness & nutrition related services to improve your health</div>
+		<div class="footer__social-media social-footer">
+			<a href="#" class="social-footer__item">
+				<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"/>
+</svg>
+			</a>
+			<a href="#" class="social-footer__item">
+				<svg viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.954 2.56909C23.069 2.95809 22.124 3.22309 21.129 3.34409C22.143 2.73309 22.923 1.77009 23.292 0.621094C22.341 1.17609 21.287 1.58009 20.165 1.80509C19.269 0.846094 17.992 0.246094 16.574 0.246094C13.857 0.246094 11.654 2.44909 11.654 5.16309C11.654 5.55309 11.699 5.92809 11.781 6.28709C7.691 6.09409 4.066 4.13009 1.64 1.16109C1.213 1.88309 0.974 2.72209 0.974 3.63609C0.974 5.34609 1.844 6.84909 3.162 7.73209C2.355 7.70609 1.596 7.48409 0.934 7.11609V7.17709C0.934 9.56209 2.627 11.5511 4.88 12.0041C4.467 12.1151 4.031 12.1751 3.584 12.1751C3.27 12.1751 2.969 12.1451 2.668 12.0891C3.299 14.0421 5.113 15.4661 7.272 15.5061C5.592 16.8251 3.463 17.6111 1.17 17.6111C0.78 17.6111 0.391 17.5881 0 17.5441C2.189 18.9381 4.768 19.7531 7.557 19.7531C16.611 19.7531 21.556 12.2571 21.556 5.76709C21.556 5.55809 21.556 5.34709 21.541 5.13709C22.502 4.44809 23.341 3.57709 24.001 2.58909L23.954 2.56909Z"/>
+</svg>
+
+			</a>
+			<a href="#" class="social-footer__item">
+				<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 0C8.74 0 8.333 0.015 7.053 0.072C5.775 0.132 4.905 0.333 4.14 0.63C3.351 0.936 2.681 1.347 2.014 2.014C1.347 2.681 0.935 3.35 0.63 4.14C0.333 4.905 0.131 5.775 0.072 7.053C0.012 8.333 0 8.74 0 12C0 15.26 0.015 15.667 0.072 16.947C0.132 18.224 0.333 19.095 0.63 19.86C0.936 20.648 1.347 21.319 2.014 21.986C2.681 22.652 3.35 23.065 4.14 23.37C4.906 23.666 5.776 23.869 7.053 23.928C8.333 23.988 8.74 24 12 24C15.26 24 15.667 23.985 16.947 23.928C18.224 23.868 19.095 23.666 19.86 23.37C20.648 23.064 21.319 22.652 21.986 21.986C22.652 21.319 23.065 20.651 23.37 19.86C23.666 19.095 23.869 18.224 23.928 16.947C23.988 15.667 24 15.26 24 12C24 8.74 23.985 8.333 23.928 7.053C23.868 5.776 23.666 4.904 23.37 4.14C23.064 3.351 22.652 2.681 21.986 2.014C21.319 1.347 20.651 0.935 19.86 0.63C19.095 0.333 18.224 0.131 16.947 0.072C15.667 0.012 15.26 0 12 0ZM12 2.16C15.203 2.16 15.585 2.176 16.85 2.231C18.02 2.286 18.655 2.48 19.077 2.646C19.639 2.863 20.037 3.123 20.459 3.542C20.878 3.962 21.138 4.361 21.355 4.923C21.519 5.345 21.715 5.98 21.768 7.15C21.825 8.416 21.838 8.796 21.838 12C21.838 15.204 21.823 15.585 21.764 16.85C21.703 18.02 21.508 18.655 21.343 19.077C21.119 19.639 20.864 20.037 20.444 20.459C20.025 20.878 19.62 21.138 19.064 21.355C18.644 21.519 17.999 21.715 16.829 21.768C15.555 21.825 15.18 21.838 11.97 21.838C8.759 21.838 8.384 21.823 7.111 21.764C5.94 21.703 5.295 21.508 4.875 21.343C4.306 21.119 3.915 20.864 3.496 20.444C3.075 20.025 2.806 19.62 2.596 19.064C2.431 18.644 2.237 17.999 2.176 16.829C2.131 15.569 2.115 15.18 2.115 11.985C2.115 8.789 2.131 8.399 2.176 7.124C2.237 5.954 2.431 5.31 2.596 4.89C2.806 4.32 3.075 3.93 3.496 3.509C3.915 3.09 4.306 2.82 4.875 2.611C5.295 2.445 5.926 2.25 7.096 2.19C8.371 2.145 8.746 2.13 11.955 2.13L12 2.16ZM12 5.838C8.595 5.838 5.838 8.598 5.838 12C5.838 15.405 8.598 18.162 12 18.162C15.405 18.162 18.162 15.402 18.162 12C18.162 8.595 15.402 5.838 12 5.838ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16ZM19.846 5.595C19.846 6.39 19.2 7.035 18.406 7.035C17.611 7.035 16.966 6.389 16.966 5.595C16.966 4.801 17.612 4.156 18.406 4.156C19.199 4.155 19.846 4.801 19.846 5.595Z"/>
+</svg>
+			</a>
+			<a href="#" class="social-footer__item">
+				<svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.9309 0.498535H1.62207C1.03244 0.498535 0.555664 0.96403 0.555664 1.53955V13.8991C0.555664 14.4747 1.03244 14.943 1.62207 14.943H13.9309C14.5205 14.943 15.0001 14.4747 15.0001 13.902V1.53955C15.0001 0.96403 14.5205 0.498535 13.9309 0.498535ZM4.84104 12.8073H2.69694V5.91238H4.84104V12.8073ZM3.76899 4.97293C3.08062 4.97293 2.52485 4.41715 2.52485 3.73161C2.52485 3.04606 3.08062 2.49029 3.76899 2.49029C4.45454 2.49029 5.01031 3.04606 5.01031 3.73161C5.01031 4.41433 4.45454 4.97293 3.76899 4.97293ZM12.8645 12.8073H10.7232V9.45578C10.7232 8.65739 10.7091 7.62766 9.60883 7.62766C8.49447 7.62766 8.3252 8.4994 8.3252 9.39936V12.8073H6.18674V5.91238H8.24056V6.85466H8.26877C8.55371 6.31299 9.25337 5.74029 10.2944 5.74029C12.4639 5.74029 12.8645 7.16781 12.8645 9.02414V12.8073V12.8073Z"/>
+</svg>
+			</a>
+		</div>
+	</div>
+	<div class="footer__nav nav-footer">
+		<div class="nav-footer__item item-nav">
+			<div class="item-nav__title">Resources</div>
+			<ul class="item-nav__list">
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Features</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Pricing</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Activity</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Instructors</a></li>
+			</ul>
+		</div>
+		<div class="nav-footer__item item-nav">
+			<div class="item-nav__title">About</div>
+			<ul class="item-nav__list">
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Blog</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">FAQs</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Policy</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Contact</a></li>
+			</ul>
+		</div>
+		<div class="nav-footer__item item-nav">
+			<div class="item-nav__title">Helpful Links</div>
+			<ul class="item-nav__list">
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Articles</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Nutritions</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Meditation</a></li>
+				<li class="item-nav__item"><a href="#" class="item-nav__link">Services</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="footer-bottom">
+	Made by BAS1C (IMYcanISYA)...
+</div>
+</div>	</footer>
+	<script src="//www.youtube.com/player_api"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
